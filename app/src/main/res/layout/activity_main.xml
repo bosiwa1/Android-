@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5B3E5"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Welcome_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#74C7BF"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/welcometext"
+                android:layout_width="369dp"
+                android:layout_height="119dp"
+                android:contentDescription="@string/welcome_message_description"
+                android:text="@string/welcome_user"
+                android:textAlignment="center"
+                android:textColor="#070707"
+                android:textSize="48sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.091" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="243dp"
+                android:layout_height="61dp"
+                android:autofillHints="password"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColorHint="#0C0C0C"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="228dp"
+                android:layout_height="50dp"
+                android:text="@string/login"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.636" />
+
+            <Button
+                android:id="@+id/sing_up_Up"
+                android:layout_width="138dp"
+                android:layout_height="58dp"
+                android:text="@string/sing_up"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.457"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.776" />
+
+            <EditText
+                android:id="@+id/name_email"
+                android:layout_width="233dp"
+                android:layout_height="63dp"
+                android:autofillHints="username,emailAddress"
+                android:ems="10"
+                android:hint="@string/name_or_email"
+                android:inputType="textEmailAddress"
+                android:textColor="#090707"
+                android:textColorHint="#121010"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</RelativeLayout>
