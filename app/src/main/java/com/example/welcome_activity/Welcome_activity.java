@@ -71,7 +71,8 @@ public class Welcome_activity extends AppCompatActivity {
         String email = name_email.getText().toString();  // Use toString() instead of String.valueOf()
         String password2 = password.getText().toString(); // Use toString() instead of String.valueOf()
 
-        mAuth.signInWithEmailAndPassword(email, password2).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword(email, password2).addOnCompleteListener
+                (this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
