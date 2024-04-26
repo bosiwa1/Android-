@@ -57,7 +57,7 @@ public class Register_activity extends AppCompatActivity {
                             // For example, you can navigate to the login activity
                             Toast.makeText(Register_activity.this, "Registration successful", Toast.LENGTH_SHORT).show();
                              Intent intentProfile ;
-                             intentProfile = new Intent(Register_activity. this, Welcome_activity.class);
+                             intentProfile = new Intent(Register_activity. this, Welcome_Istagran_Main.class);
                             startActivity(intentProfile);
                         } else {
                             // Registration failed, handle accordingly

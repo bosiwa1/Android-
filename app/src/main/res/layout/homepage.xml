@@ -10,7 +10,7 @@
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
     android:textAlignment="center"
-    tools:context=".profile">
+    tools:context=".HomePage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -234,6 +234,8 @@
 
                     <include layout="@layout/story_nmae"/>
 
+
+
                     <HorizontalScrollView
                         android:layout_width="match_parent"
                         android:layout_height="375dp"
@@ -254,7 +256,17 @@
 
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/new1"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new1" />
+
+                            <ImageView
+                                android:id="@+id/put_in_viewI_mage"
                                 android:layout_width="386dp"
                                 android:layout_height="336dp"
                                 android:adjustViewBounds="true"
@@ -283,6 +295,92 @@
                                 android:background="#1A1919"
 
                                 android:src="@drawable/cover" />
+
+                            <ImageView
+                                android:id="@+id/new2"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new2" />
+                            <ImageView
+                                android:id="@+id/new3"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new3" />
+
+                            <ImageView
+                                android:id="@+id/new4"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new4" />
+                            <ImageView
+                                android:id="@+id/new5"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new5" />
+                            <ImageView
+                                android:id="@+id/new6"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new6" />
+                            <ImageView
+                                android:id="@+id/new7"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new7" />
+
+                            <ImageView
+                                android:id="@+id/new8"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new8" />
+                            <ImageView
+                                android:id="@+id/new9"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo1"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                android:src="@drawable/new9" />
+
+                            <ImageView
+                                android:id="@+id/new10"
+                                android:layout_width="386dp"
+                                android:layout_height="336dp"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo2"
+                                android:scaleType="fitCenter"
+                                android:background="#1A1919"
+                                 />
+
 
 
                         </LinearLayout>
@@ -325,7 +423,8 @@
                         android:backgroundTint="#CEE8E8E8"
                         android:contentDescription="@string/imagebt3"
                         android:src="@drawable/add"
-                        tools:src="@drawable/add" />
+                        tools:src="@drawable/add"
+                        android:onClick="setSelectImage"/>
 
                     <ImageButton
                         android:id="@+id/video"

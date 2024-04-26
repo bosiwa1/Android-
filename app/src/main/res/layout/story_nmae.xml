@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/story_name"
     android:orientation="horizontal"
-    tools:showIn="@layout/activity_profile">
+    tools:showIn="@layout/homepage">
 
     <TextView
         android:id="@+id/textView6"

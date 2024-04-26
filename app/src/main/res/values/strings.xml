@@ -72,4 +72,10 @@
     <string name="p18">p18</string>
     <string name="p20">p20</string>
     <string name="todof">TODOf</string>
+    <string name="map">map</string>
+    <string name="my_map_api_key" translatable="false">AIzaSyCuPHA1kVhOu49ONZkcvhukLwDojI8wGtA</string>
+    <string name="view">view</string>
+    <string name="vi">vi</string>
+    <string name="r1">r1</string>
+    <string name="tr">tr</string>
 </resources>

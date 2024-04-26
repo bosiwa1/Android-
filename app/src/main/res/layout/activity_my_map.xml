@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyMap">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="407dp"
+        android:layout_height="666dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/botton_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/botton_navigation"
+        android:layout_width="410dp"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/back_home"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CEE8E8E8"
+            android:contentDescription="@string/imagebt1"
+            android:src="@drawable/home"
+            tools:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="93dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CEE8E8E8"
+            android:contentDescription="@string/imagebt2"
+            android:src="@drawable/search"
+            tools:src="@drawable/search" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CEE8E8E8"
+            android:contentDescription="@string/imagebt3"
+            android:src="@drawable/add"
+            tools:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/video"
+            android:layout_width="76dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CEE8E8E8"
+            android:contentDescription="@string/imagebt4"
+            android:src="@drawable/video"
+            tools:src="@drawable/video" />
+
+        <ImageButton
+            android:id="@+id/profiles1"
+            android:layout_width="76dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CEE8E8E8"
+            android:contentDescription="@string/imagebt5"
+            android:src="@drawable/person"
+            tools:src="@drawable/person" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
