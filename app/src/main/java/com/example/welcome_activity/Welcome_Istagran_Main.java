@@ -46,7 +46,8 @@ import androidx.activity.result.contract.ActivityResultContracts;
 
 public class Welcome_Istagran_Main extends AppCompatActivity {
 
-   
+
+    private FirebaseAuth mAuth;
 
 
     private EditText name_email ;
@@ -54,7 +55,7 @@ public class Welcome_Istagran_Main extends AppCompatActivity {
     Button sing_up;
     Button login ;
 
-    FirebaseAuth mAuth;
+
 
 
     @SuppressLint("MissingInflatedId")
